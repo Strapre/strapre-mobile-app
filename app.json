@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "strapre",
+    "slug": "strapre",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "strapre",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E6F4FE"
+    },
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.strapre.app",
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/images/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#E6F4FE"
+      }
+    },
+    "android": {
+      "package": "com.strapre.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "splash": {
+        "image": "./assets/images/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#E6F4FE",
+        "mdpi": "./assets/images/splash.png",
+        "hdpi": "./assets/images/splash.png",
+        "xhdpi": "./assets/images/splash.png",
+        "xxhdpi": "./assets/images/splash.png",
+        "xxxhdpi": "./assets/images/splash.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "72ab3748-c86f-45a0-9150-3de352ba01e9"
+      }
+    }
+  }
+}
